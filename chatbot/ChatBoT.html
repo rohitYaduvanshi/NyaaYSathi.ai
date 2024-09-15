@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<title>ChatBot</title>
+	<link rel="stylesheet" href="ChatBoT.css">
+</head>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Kaushan+Script&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Merienda:wght@300..900&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Changa:wght@200..800&family=Merienda:wght@300..900&family=Permanent+Marker&family=Rubik+Bubbles&family=Yatra+One&display=swap" rel="stylesheet">
+    
+<body>
+	<div class="chatBot">
+		<header>
+			<h2>NyaaY Sathi</h2>
+			<span alt="Close"
+				id="cross"
+				onclick="cancel()">X</span>
+		</header>
+		<ul class="chatbox">
+			<li class="chat-incoming chat">
+				<p>Hey! How can I assist you today?</p>
+			</li>
+		</ul>
+		<div class="chat-input">
+			<textarea rows="0" cols="17"
+					placeholder="Enter a message..."></textarea>
+			<button id="sendBTN">Send</button>
+		</div>
+	</div>
+	<script src="ChatBoT.js" defer></script>
+</body>
+
+</html>
